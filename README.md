@@ -2,6 +2,7 @@
 A set of Node.js scripts to scrape a website (using sitemap.xml) and compose the image tiles into a large packed image grid.
 
 ## Instructions
+* `npm install`
 * Edit settings.js (see comments in example settings.js file)
 * Run 1_grab-sitemap.js
 * Run 2_grab-site.js
