@@ -1,5 +1,5 @@
 # whole-site-view
-A set of Node.js scripts to scrape a website (using sitemap.xml) and compose the image tiles into a large packed image grid.
+A set of Node.js scripts to grab screenshots of a website (based on pages listed in sitemap.xml) and compose the image tiles into a large packed image grid.
 
 ## Instructions
 * `npm install`

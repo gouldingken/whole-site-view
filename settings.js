@@ -1,7 +1,7 @@
 module.exports = {
     siteRoot: "https://www.sasaki.com/",
     siteMap: "https://www.sasaki.com/sitemap.xml",
-    imageWidth: 1200,//the size of the browser window
+    imageWidth: 1200,//used to set the size of the headless browser window (height will be based on content length)
     scaleFactor: 0.5,//the scale factor to apply to the image. Actual output size is imageWidth * scaleFactor
     //when capturing full height images of an entire page, it can be helpful to apply CSS overrides - e.g. if a class uses a % of vh, we can override with a fixed pixel value
     cssOverride: `
